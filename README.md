@@ -2,8 +2,8 @@
 
 ## 概要
 
-Go 言語製の API サーバーです。Echo フレームワークを利用しています。
-go-server-template の雛形を作成
+- Go 言語製の API サーバーです。Echo フレームワークを利用しています。
+- go-server-template の雛形を作成
 
 ## 前提条件
 
@@ -15,7 +15,7 @@ go-server-template の雛形を作成
 1. リポジトリのクローン
 
 ```sh
-git clone <リポジトリURL>
+git clone https://github.com/matsukenx/sample-server.git
 cd sample-server
 ```
 
@@ -58,5 +58,5 @@ curl -H "X-API-KEY: test" "http://localhost:8080/users/1"
 
 ## 注意事項
 
-- ポートが既に使用中の場合は、他のプロセスを停止するか、`.env` で別のポートを指定してください。
+- ポートが既に使用中の場合は、他のプロセスを停止するか、`.envrc` で別のポートを指定してください。
 - API_KEY は適宜変更してください。
